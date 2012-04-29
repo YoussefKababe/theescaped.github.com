@@ -1,0 +1,16 @@
+Ideas escape and land here. We will be live soon. 
+
+License
+The following directories are © me, Christopher Chow. You may not reuse anything in them without my permission:
+
+_posts/
+All code of mine in the posts is under the MIT License unless otherwise mentioned.
+
+TODO:
+- SEARCH
+- Add some space between summary and title.
+- Fix search.
+- Adjust seperator line between upper menu and main content to match the width of the main div. 
+- Fix the sharing buttons.
+- Add a dot to the summary in case people forget to add it. 
+- Have a HowTo Page.

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+<ul id="articles_container">
+  {% for post in site.posts%}  
+    {% if post.author == page.author %} 
+    <li class="article_wrapper">
+  <div class="social_links">
+    <ul>
+      <div class="facebook">
+      </div>
+      <div class="twitter">
+      </div>
+      <div class="linkedin">
+      </div>
+      <div class="stumbleupon">
+      </div>
+      <div class="digg">
+      </div>
+    </ul>
+  </div>
+  <div id="authors">
+    <img src="/assets/images/{{post.author}}.jpg" />
+    <div>
+      <a href="/authors/{{post.author}}">{{post.author}}</a>
+      <br/>
+      {{post.date | date: "%d %B %Y" }}
+    </div>
+  </div>
+  <div class="article_title">
+    <a href="{{ post.url }}">{{post.title}}</a>
+  </div>
+  <div id="article_content">
+
+                {{post.summary}}
+          </div>
+		    </li>
+    {% endif %} 
+	{% endfor %} 	
+</ul>	
