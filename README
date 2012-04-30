@@ -8,9 +8,5 @@ _posts/
 
 TODO:
 - SEARCH
-- Add some space between summary and title.
-- Fix search.
-- Adjust seperator line between upper menu and main content to match the width of the main div. 
 - Fix the sharing buttons.
-- Add a dot to the summary in case people forget to add it. 
-- Have a HowTo Page.
+- Have a HowTo Page, about us page, and contact page.
