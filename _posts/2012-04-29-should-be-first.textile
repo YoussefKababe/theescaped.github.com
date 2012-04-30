@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Taha El Hajji
-categories: Technology
+categories: technology
 summary: This article should appear at the top because it was written on April 29.
 ---
 
