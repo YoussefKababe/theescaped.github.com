@@ -1,7 +1,6 @@
 ---
 layout: post
 author: Zouhair Mazouz
-tag: politics
 category: politics
 ---
 
