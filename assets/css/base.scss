@@ -214,6 +214,16 @@ body{
                 }
                 
             }
+            #page_not_found{
+                a:link,a:active,a:visited{
+                    text-decoration:none;
+                    color: $color3;
+                }
+                a:hover{
+                        color: $color1;
+                        cursor: pointer;
+                }
+            }
             #authors{
                 a:link,a:active,a:visited{
                     text-decoration:none;

@@ -105,24 +105,7 @@ body {
     margin-bottom: 15px;
     border-top: 1px solid #c8c8c8;
     text-align: left;
-    padding: 10px;
-    /*            #ad_authors{
-                    @extend #authors
-                }
-                .ad{
-                    color: $color0;
-                    font:{
-                        size: 20px;
-                    }
-                    margin: 20px 0 0 0;
-                    a:link,a:active,a:visited{
-                        text-decoration: underline;
-                        color: $color0;
-                        font: {
-                            size: 20px;
-                        }
-                    }
-                }*/ }
+    padding: 10px; }
     #articles_container .article_wrapper .social_links {
       float: right;
       margin: 0;
@@ -193,6 +176,12 @@ body {
       #articles_container .article_wrapper .article_title a:hover {
         color: #e04020;
         cursor: pointer; }
+    #articles_container .article_wrapper #page_not_found a:link, #articles_container .article_wrapper #page_not_found a:active, #articles_container .article_wrapper #page_not_found a:visited {
+      text-decoration: none;
+      color: #e04020; }
+    #articles_container .article_wrapper #page_not_found a:hover {
+      color: #4d4d53;
+      cursor: pointer; }
     #articles_container .article_wrapper #authors {
       font-size: 12px; }
       #articles_container .article_wrapper #authors a:link, #articles_container .article_wrapper #authors a:active, #articles_container .article_wrapper #authors a:visited {
