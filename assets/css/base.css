@@ -167,7 +167,7 @@ body {
       color: #21221c;
       text-transform: uppercase;
       display: block;
-      margin: 20px 0 20px 0;
+      margin: 20px 0 10px 0;
       font-size: 25px;
       font-weight: bold; }
       #articles_container .article_wrapper .article_title a:link, #articles_container .article_wrapper .article_title a:active, #articles_container .article_wrapper .article_title a:visited {
