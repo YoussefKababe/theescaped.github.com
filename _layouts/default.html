@@ -28,7 +28,8 @@
 				<li><a href="/politics/">Politics</a></li>
 				<li><a href="/technology/">Technology</a></li>
 				<li><a href="/education/">Education</a></li>
-				<li id="search"><input type="text" class="text" value="Search"></li>
+				<li id="search"> <input type="text" id="st-search-input" class="st-search-input text" /></li>
+				<div id="st-results-container"></div>
 			    </ul>
 			</div>
 			<!--Content inserted by Jekyll. This is the area where an article would appear, for instance-->
@@ -51,5 +52,22 @@
       			fjs.parentNode.insertBefore(js, fjs);
     			}(document, 'script', 'facebook-jssdk'));
     		</script>
+    		<script type="text/javascript">
+			  var Swiftype = window.Swiftype || {};
+			  (function() {
+			    Swiftype.key = 'q77S4ZZxdz5SUGX4TgbT';
+			    Swiftype.inputElement = '#st-search-input';
+			    Swiftype.resultContainingElement = '#st-results-container';
+			    Swiftype.attachElement = '#st-search-input';
+			    Swiftype.renderStyle = "overlay";
+
+			    var script = document.createElement('script');
+			    script.type = 'text/javascript';
+			    script.async = true;
+			    script.src = "//swiftype.com/embed.js";
+			    var entry = document.getElementsByTagName('script')[0];
+			    entry.parentNode.insertBefore(script, entry);
+			  }());
+			</script>
 	</body>
 </html>
