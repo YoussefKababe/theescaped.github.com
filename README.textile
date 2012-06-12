@@ -12,7 +12,6 @@ All other files are MIT Licenced.
 h1. TODO:
 
 - SEARCH
-- Mark the current category link as bold. (Or a different marker style).
 - Fix the the rest of the sharing buttons. (- Facebook)
 	- Make Facebook share page show post summary instead of website description.
 - Have a HowTo Page, about us page, and contact page.
