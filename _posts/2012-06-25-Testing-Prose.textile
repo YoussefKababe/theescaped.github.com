@@ -1,0 +1,10 @@
+---
+layout: post
+author: Mohamed Wael Khobalatte
+category: technology
+summary: Using Prose.io to write posts for The Escaped
+---
+
+You can access it using this link: http://prose.io/#theescaped/theescaped.github.com/master/
+
+It will ask your permission to use your github data. From that link you can access _posts and start drafting your posts. Later I will make sure we have some defaults there so that people won't have to fill in mandane details everytime they want to publish something. 
