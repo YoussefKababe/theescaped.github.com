@@ -3,35 +3,30 @@ layout: default
 ---
 
 
-  <ul id="articles_container">
-    <li class="article_wrapper">
-  <div class="social_links">
-    <ul>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=theescaped.github.com{{page.url}}">
-        <div class="facebook"></div>
-      </a> 
-      <div class="twitter">
+<ul id="articles_container">
+  <li class="article_wrapper">
+    {% include social_links.html %}
+    
+    <div id="authors">
+      <img src="/assets/images/{{page.author}}.jpg" />
+      <div>
+        <a href="/authors/{{page.author}}">{{page.author}}</a>
+        <br/>
+        {{page.date | date: "%d %B %Y" }}
       </div>
-    </ul>
-  </div>
-  <div id="authors">
-    <img src="/assets/images/{{page.author}}.jpg" />
-    <div>
-      <a href="/authors/{{page.author}}">{{page.author}}</a>
-      <br/>
-      {{page.date | date: "%d %B %Y" }}
     </div>
-  </div>
-  <div class="article_title">
-    <a href="{{ page.url }}">{{page.title}}</a>
-  </div>
-  <div id="article_content">
-          {{ content }}
-        </div>
+    
+    <div class="article_title">
+      <a href="{{ page.url }}">{{page.title}}</a>
+    </div>
+    
+    <div id="article_content">
+      {{ content }}
+    </div>
 
     <div class="fb-comments" data-href="{{page.url}}" data-num-posts="15" data-width="755"></div> 
 
-    </li>
-  </ul>
+  </li>
+</ul>
 
 			
