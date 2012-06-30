@@ -6,15 +6,8 @@ layout: default
 	<ul id="articles_container">
 		{% for post in paginator.posts %} 
 		<li class="article_wrapper">
-			<div class="social_links">
-          		<ul>
-            		<a href="https://www.facebook.com/sharer/sharer.php?u=theescaped.github.com{{post.url}}">
-                  <div class="facebook"></div>
-                </a> 
-            		<div class="twitter"></div>
-          		</ul>
-        	</div>
-
+			<!-- Disable social links from the category page for the moment -->
+      {% include social_links.html %}
 			<div id="authors">
       			<img src="/assets/images/{{post.author}}.jpg"/>
       			<div><a href="/authors/{{post.author}}">{{post.author}}</a><br/>{{post.date | date: "%d %B %Y" }}</div>
