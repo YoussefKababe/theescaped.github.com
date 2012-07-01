@@ -1,13 +1,19 @@
 <div class="social_links">
 	<ul>
-      <a href="https://www.facebook.com/sharer/sharer.php?u=theescaped.github.com{{post.url}}">
+	  {% if post.url %}   
+	  	{% assign post_or_page = post %}
+	  {% else %}
+	  	{% assign post_or_page = page %}
+	  {% endif %}  
+
+	  <a href="https://www.facebook.com/sharer/sharer.php?u=theescaped.github.com{{post_or_page.url}}">
         <div class="facebook"></div>
       </a>
 
-      <a href="https://twitter.com/share?text={{post.title}}%20%20theescaped.github.com{{post.url}}" >
+      <a href="https://twitter.com/share?text={{post_or_page.title}}%20%20theescaped.github.com{{post_or_page.url}}" >
       	<div class="twitter">
       	</div>
-      </a>      
+      </a>    
     </ul>
 </div>
 
