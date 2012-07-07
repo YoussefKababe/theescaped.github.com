@@ -1,4 +1,10 @@
 pygments: true
 paginate: 10
 prose:
-  rooturl: "_posts"
+  rooturl: "_posts
+  metadata:
+    "_posts":
+      author: "Your name, uppercased, spaced"
+      category: "Article category"
+      symmary: "A short (<= 3 lines) summary that best describes your article"
+      
