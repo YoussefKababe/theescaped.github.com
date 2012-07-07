@@ -1,0 +1,7 @@
+---
+layout: post
+author: Mohamed Wael Khobalatte
+summary: Testing Prose.io after they added support for organizations.
+---
+
+It looks neat. I am looking into how we can run our own instance so that we can customize it to look like The Escaped. We will see. 
