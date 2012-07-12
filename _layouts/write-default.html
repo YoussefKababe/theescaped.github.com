@@ -1,0 +1,28 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Prose &middot; A Content Editor for GitHub</title>
+  <link rel='shortcut icon' href='/images/favicon.ico' type='image/x-icon' />
+  <link rel='stylesheet' href='/write/fonts/open-sans.css'>
+  <link rel='stylesheet' href='/write/app.css'>
+  {% include templates.html %}
+  <script src='/write/boot.js'></script>
+</head>
+<body>
+  <div id='container'>
+    <div id='main'>{{content}}</div>
+  </div>
+
+  <div id='footer'>
+    <div class="footer-content">
+      <a class='help' href="/{{site.baseurl}}help.html">Help</a><a class='about' href="/{{site.baseurl}}about.html">About</a>
+      <div class="fr brand">
+        <a href="/{{site.baseurl}}#prose/prose/blob/gh-pages/README.md">Prose 0.2.0</a>
+      </div>
+   </div>
+  </div>
+</body>
+</html>

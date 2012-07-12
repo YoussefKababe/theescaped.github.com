@@ -1,0 +1,34 @@
+<div class="navigation clearfix">
+  <a href='/{{site.baseurl}}' class='title'><span>Prose</span></a>
+
+  <% if (state.repo) { %>
+    <% var path = state.path %>
+
+    <a class="user" href="#<%= [state.user].join('/') %>"><%= state.user %></a>
+      
+    <% if (state.repo) { %>
+      <a class="repo" href="#<%= [state.user, state.repo, 'tree', state.branch].join('/') %>"><%= state.repo %></a>
+    <% } %>
+    
+    <% if (path) { %>
+      <% _.each(_.chunkedPath(path), function(p) { %>
+        <a class="path" href="#<%= [state.user, state.repo, 'tree', state.branch, p.url].join('/') %>"><%= p.name %></a>
+      <% }); %>
+    <% } %>
+      <% if (state.file) { %>
+      <div class="file">
+        <%= _.clip(state.file, 30) %>
+      </div>
+      <% } %>
+  <% } else { %>
+    <%= app.state.title %>
+  <% } %>
+
+  <div class='user-status<%= !window.authenticated ? " logged-out" : "" %>'>
+  <% if (window.authenticated) { %>
+    <%= app.username %> <a class="logout" href="#">Logout</a>
+  <% } else { %>
+      <a class="button" href="https://github.com/login/oauth/authorize?client_id={{site.oauth_client_id}}&scope=repo, user&redirect_uri=<%= window.location.href %>">Sign in using Github</a>
+  <% } %>
+  </div>
+</div>
