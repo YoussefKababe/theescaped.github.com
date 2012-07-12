@@ -1,3 +1,10 @@
+---
+layout: post
+author: Taha El Hajji
+category: politics
+summary: Well you know, it's politics! Lots of talk, little action
+---
+
 Politics my friend are an interesting phenomenon. It is a conditioned pattern of behavior used not only by humans but also other creatures. Though, different in form it is similar in nature. It is the application of pressure on a source of some threat to an interest we care about.
 
 More bla bla about **politics**.
