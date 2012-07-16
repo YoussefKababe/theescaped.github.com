@@ -16,3 +16,7 @@ h1. TODO:
 	- Make Facebook share page show post summary instead of website description.
 - Have a HowTo Page, about us page, and contact page.
 - Cross browser testing.
+
+- Prose
+  Change landing page to theescaped repo. 
+  
