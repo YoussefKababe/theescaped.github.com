@@ -1,0 +1,8 @@
+---
+layout: post
+author: Mohamed Wael Khobalatte
+category: technology
+summary: Posting to The Escaped from our own instance of Prose. 
+--- 
+
+This post was made from localhost, using The Escaped's own instance of Prose and a custom node server running gatekeeper (github.com/prose/gatekeeper). Currently looks exactly like Prose.io, but I should be able to customize the looks soon. 
