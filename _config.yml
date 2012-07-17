@@ -4,11 +4,6 @@ auto: true
 server: true
 prose:
   rooturl: "_posts"
-  metadata:
-    "_posts":
-      author: "Your name, uppercased, spaced"
-      category: "Article category"
-      symmary: "A short (<= 3 lines) summary that best describes your article"
 oauth_client_id: 065ed6a0192921d71997
 gatekeeper_url: http://theescaped-write.herokuapp.com
 exclude:

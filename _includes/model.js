@@ -288,18 +288,23 @@ function emptyPost(user, repo, branch, path, cb) {
   cb(null, {
     "metadata": metadata,
     "raw_metadata": rawMetadata,
-    "content": "---\n
-                layout: post\n
-                author: Your name, capitalized (eg, Zouhair Mazouz)\n
-                category: Choose category\n
-                summary: your post summary. Keep it short. Preferably two to three\n
-                         lines\n---\n\n\n
-                Your post here. Guidelines for rich content coming soon.\n
-                ",
+    "content": "---\n\
+layout: post\n\
+author: Your name, capitalized (eg, Zouhair Mazouz)\n\
+category: Choose category\n\
+summary: your post summary. Keep it short. Preferably two to three\n\
+lines\n---\n\n\nReplace this are with your post. \
+Guidelines for rich content coming soon \
+For the moment, just bear in mind that the \
+title of your post should have \
+the format year-month-day-your-title.textile, \
+just like above. An example \
+would be 1989-09-23-the-smartest-dude-was-born.textile. In fact, \
+for convenience, you can just edit the title above. ",
     "repo": repo,
     "path": path,
     "persisted": false,
-    "file": new Date().format("Y-m-d")+"-your-filename.md"
+    "file": new Date().format("Y-m-d")+"-post-title.textile"
   });
 }
 
