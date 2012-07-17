@@ -288,7 +288,14 @@ function emptyPost(user, repo, branch, path, cb) {
   cb(null, {
     "metadata": metadata,
     "raw_metadata": rawMetadata,
-    "content": "# How does it work?\n\nEnter Text in Markdown format.",
+    "content": "---\n
+                layout: post\n
+                author: Your name, capitalized (eg, Zouhair Mazouz)\n
+                category: Choose category\n
+                summary: your post summary. Keep it short. Preferably two to three\n
+                         lines\n---\n\n\n
+                Your post here. Guidelines for rich content coming soon.\n
+                ",
     "repo": repo,
     "path": path,
     "persisted": false,
