@@ -205,6 +205,12 @@ body {
       text-align: justify;
       line-height: 18px;
       font-size: 14px; }
+      #articles_container .article_wrapper #article_content a:link, #articles_container .article_wrapper #article_content a:active, #articles_container .article_wrapper #article_content a:visited {
+        text-decoration: none;
+        color: #e04020; }
+      #articles_container .article_wrapper #article_content a:hover {
+        color: #21221c;
+        cursor: pointer; }
   #articles_container .button {
     height: 20px;
     background: url("/assets/images/expand.jpg") no-repeat center;

@@ -1,3 +1,5 @@
+---
+---
 /* The Escaped */
 
 $color0: rgb(33,34,28); /* Blue */
@@ -255,6 +257,14 @@ body{
                 line-height: 18px;
                 font:{
                     size: 14px;
+                }
+                a:link,a:active,a:visited{
+                    text-decoration:none;
+                    color: $color3;
+                }
+                a:hover{
+                        color: $color0;
+                        cursor: pointer;
                 }
             }
         }

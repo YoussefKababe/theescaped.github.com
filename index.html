@@ -3,26 +3,31 @@ layout: default
 ---
 
 
-	<ul id="articles_container">
-		{% for post in paginator.posts %} 
+<ul id="articles_container">
+	{% for post in paginator.posts %} 
 		<li class="article_wrapper">
 			<!-- Disable social links from the category page for the moment -->
       {% include social_links.html %}
 			<div id="authors">
-      			<img src="/assets/images/{{post.author}}.jpg"/>
-      			<div><a href="/authors/{{post.author}}">{{post.author}}</a><br/>{{post.date | date: "%d %B %Y" }}</div>
-        	</div>
-
-        	<div class="article_title"> 
-            <a href="{{ post.url }}">{{post.title}}</a>
+      	<img src="/assets/images/{{post.author}}.jpg"/>
+      		<div>
+            <a href="/authors/{{post.author}}">{{post.author}}</a><br/>{{post.date | date: "%d %B %Y" }}
           </div>
+      </div>
+    
+      <div class="article_title"> 
+        <a href="{{ post.url }}">{{post.title}}</a>
+      </div>
 
-          <div id="article_content">
-        	{{post.summary}} <!-- Should probably have its own div, for parsing.  -->
-        </div>
+      <div id="article_content">
+        {{post.summary}} <!-- Should probably have its own div, for parsing.  -->
+        <br>
+        <br>
+        <a href="{{ post.url }}">> Read more</a>
+      </div>
 		</li>
-		{% endfor %} 	
-	</ul>	
+	{% endfor %} 	
+</ul>	
 
   <!-- Pagination links -->
 <div class="pagination">
