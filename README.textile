@@ -1,4 +1,4 @@
-Ideas escape and land here. We will be live soon. 
+Ideas escape and land here. We will be live very soon. 
 
 h1. License
 
@@ -12,12 +12,10 @@ All other files are MIT Licenced.
 h1. TODO:
 
 - SEARCH
-- Fix the the rest of the sharing buttons. (- Facebook)
-	- Make Facebook share page show post summary instead of website description.
+- Make Facebook share page show post summary instead of website description.
 - Have a HowTo Page, about us page, and contact page.
 - Cross browser testing.
-
 - Prose
-  Change landing page to theescaped repo. 
-  You have to click save twice for some reason. 
+  - Change landing page to theescaped repo. 
+  - You have to click save twice for some reason. 
   
