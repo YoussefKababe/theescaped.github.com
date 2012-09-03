@@ -292,8 +292,7 @@ function emptyPost(user, repo, branch, path, cb) {
 layout: post\n\
 author: Your name, capitalized (eg, Zouhair Mazouz)\n\
 category: Choose category\n\
-summary: your post summary. Keep it short. Preferably two to three\n\
-lines\n---\n\n\nReplace this are with your post. \
+summary: your post summary. Keep it short. Preferably two to three lines\n---\n\n\nReplace this are with your post. \
 Guidelines for rich content coming soon \
 For the moment, just bear in mind that the \
 title of your post should have \
