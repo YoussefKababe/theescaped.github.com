@@ -1,0 +1,11 @@
+---
+layout: post
+author: Taha El Hajji
+summary: Learn more about The Escaped.
+---
+
+The Escaped is an online publication providing insights on various subjects from the fields of entrepreneurship, politics, education and technology.
+
+Our approach is biased towards logical arguments at the expense of prejudice, stereotype and groupthink. The goal is to contribute to the improvement of our societies through the spread of ideas.
+
+If you want to contribute to this effort, "contact us":{{site.url}}/2012/09/09/contact-us.html . If not, see you in the comments section!

@@ -27,23 +27,11 @@ body {
     margin: 50px 0 0 0;
     padding: 0; }
     #menu ul li {
-      color: #4d4d53;
       list-style: none;
       font-size: 20px; }
-    #menu ul #about, #menu ul #contact {
-      cursor: pointer; }
-    #menu ul .summary {
-      height: 25px;
-      overflow: hidden; }
-    #menu ul .full_view {
-      height: 100%;
-      margin: 0 10px 10px 10px;
-      overflow: hidden; }
-    #menu ul .summary .menu_text, #menu ul .full_view .menu_text {
-      font-size: 14px;
-      text-align: justify;
-      margin: 0;
-      padding: 0; }
+      #menu ul li a:link, #menu ul li a:active, #menu ul li a:visited {
+        text-decoration: none;
+        color: #4d4d53; }
 
 #topicsmenu {
   width: 960px;
