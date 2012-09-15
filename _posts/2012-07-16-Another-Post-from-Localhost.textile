@@ -1,7 +1,0 @@
----
-layout: post
-author: Zouhair Mazouz
-summary: Posting from localhost again. If you believe this is Zouhair, well, LOL. 
----
-
-Word. 
