@@ -1,0 +1,9 @@
+---
+layout: post
+author: Zouhair Mazouz
+category: politics
+summary: Zotototo. 
+---
+
+
+Replace this are with your post. Guidelines for rich content coming soon For the moment, just bear in mind that the title of your post should have the format year-month-day-your-title.textile, just like above. An example would be 1989-09-23-the-smartest-dude-was-born.textile. In fact, for convenience, you can just edit the title above. 
