@@ -1,3 +1,8 @@
+---
+layout: post
+author: Taha El Hajji
+summary: Learn more about The Escaped.
+---
 
 The Escaped is an online publication providing insights on various subjects from the fields of entrepreneurship, politics, education and technology.
 
