@@ -3,6 +3,7 @@
 layout: post
 author: Zouhair Mazouz
 category: politics
+date: 2012-09-16 14:00:00
 summary: In Morocco, the attempts of a civil rights group to decriminalize daytime eating in Ramadan were met by the patronizing persecution of an overly conservative public. Why the restriction of civil liberties through religion is not the religious thing to do.
 title: Leave God Out Of It 
 --- 
