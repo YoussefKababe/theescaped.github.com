@@ -271,6 +271,9 @@ function emptyPost(user, repo, branch, path, cb) {
   var month = currentTime.getMonth() + 1;
   var day = currentTime.getDate();
   var year = currentTime.getFullYear();
+  var hours = currentTime.getHours();
+  var minutes = currentTime.getMinutes();
+  var seconds = currentTime.getSeconds();
   var metadata = {
     "layout": "default",
     "published": false,
@@ -296,7 +299,7 @@ function emptyPost(user, repo, branch, path, cb) {
 layout: post\n\
 author: Your name, capitalized (eg, Zouhair Mazouz)\n\
 category: Choose category\n\
-date: " + year + " \n\
+date: " + year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds +"\n\
 summary: your post summary. Keep it short. Preferably two to three lines.\n---\n\n\nReplace this are with your post. \
 Guidelines for rich content coming soon \
 For the moment, just bear in mind that the \
