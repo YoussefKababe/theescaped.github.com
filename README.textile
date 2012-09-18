@@ -13,8 +13,7 @@ h1. TODO:
 
 - SEARCH
 - Cross browser testing.
-- Prose
-  - Change landing page to theescaped repo. 
-  - You have to click save twice for some reason. 
-  - Add guidelines and help page. 
+- Prose: Change landing page to theescaped repo. 
+- Prose: You have to click save twice for some reason. 
+- Prose: Add guidelines and help page. 
   
