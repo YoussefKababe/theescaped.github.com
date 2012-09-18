@@ -1,4 +1,4 @@
-We are officially live at descaped.com 
+We are officially live at descaped.com. 
 
 h1. License
 
