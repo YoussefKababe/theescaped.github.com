@@ -1,4 +1,4 @@
-Ideas escape and land here. We will be live very soon. 
+We are officially live at descaped.com 
 
 h1. License
 
@@ -12,9 +12,9 @@ All other files are MIT Licenced.
 h1. TODO:
 
 - SEARCH
-- Have a HowTo Page, about us page, and contact page.
 - Cross browser testing.
 - Prose
   - Change landing page to theescaped repo. 
   - You have to click save twice for some reason. 
+  - Add guidelines and help page. 
   
