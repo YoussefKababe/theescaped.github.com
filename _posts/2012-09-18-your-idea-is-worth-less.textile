@@ -3,7 +3,6 @@ layout: post
 author: Taha El Hajji
 category: entrepreneurship
 date: 2012-9-18 20:40:40
-title: Your Idea Is Worthless! And So Is Your Money!
 summary: On the surface, the world’s economy seems to be feeding on ideas and innovation. The flows of value seem biased towards countries where innovative ideas are created while less value flows to other economies that are only reusing old ideas. The argument is usually supported by an abundance of examples: value of computers versus tomatoes, cars versus oranges, smartphones versus t-shirts and the list goes on. We have all heard them. Examples used to validate the hypothesis that innovative ideas drive value. And it seems to fit so well with reality… until you meet a skeptic.
 ---
 
