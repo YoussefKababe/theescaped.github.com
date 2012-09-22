@@ -11,16 +11,16 @@ body {
   margin-top: 0; }
 
 #container {
-  width: 850px;
+  width: 855px;
   height: 100%;
   position: relative;
   margin: auto; }
   #container .pagination {
     font-size: 14px;
-    font-width: 850px; }
+    font-width: 855px; }
 
 #menu {
-  width: 180px;
+  width: 185px;
   height: 100%;
   float: left;
   display: inline-block; }
@@ -35,7 +35,7 @@ body {
         color: #4d4d53; }
 
 #topicsmenu {
-  width: 850px;
+  width: 855px;
   position: fixed;
   top: 0;
   background-color: white;
