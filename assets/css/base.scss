@@ -7,7 +7,7 @@ $color3: rgb(224,64,32); /* Logo Color */
 $black: rgb(0,0,0);
 $white: rgb(255,255,255);
 $total-width: 865px;
-$content-width: 670px;
+$content-width: 680px;
 $border: 1px;
 $topics-height: 38px;
 $search-height: 50px;
@@ -109,6 +109,7 @@ body{
         width: 160px;
         float: right;
         padding-top: 6px;
+        padding-right: 0;
         .text{
             height: 24px;
             width: 150px;
@@ -138,7 +139,7 @@ body{
             margin-bottom: $content-margin;
             border-top: 1px solid $color2;
             text-align: left;
-            padding: 10px;
+            padding: 10px 0 10px 0;
             .social_links{
                 float: right;
                 margin: 0;
