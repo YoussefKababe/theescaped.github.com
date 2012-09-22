@@ -73,7 +73,7 @@ body {
     #topicsmenu #search .text {
       height: 24px;
       width: 150px;
-      border: 1px solid #c8c8c8;
+      border: 1px solid #e6e6e6;
       color: #4d4d53;
       padding: 0;
       float: right; }
@@ -93,7 +93,7 @@ body {
     margin-top: -30px; }
   #articles_container .article_wrapper {
     margin-bottom: 15px;
-    border-top: 1px solid #c8c8c8;
+    border-top: 1px solid #e6e6e6;
     text-align: left;
     padding: 10px 0 10px 0; }
     #articles_container .article_wrapper .social_links {
@@ -214,6 +214,6 @@ body {
     text-align: center;
     color: white;
     background-color: #21221c;
-    border: 1px solid #c8c8c8;
+    border: 1px solid #e6e6e6;
     margin-top: 10px;
     cursor: pointer; }
