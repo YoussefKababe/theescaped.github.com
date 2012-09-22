@@ -122,7 +122,7 @@ body{
 }
 
 #articles_container{
-        width: $content-width - 2*$border;
+        width: $content-width;
         display: inline-block;
         float: left;
         overflow-y: hidden;
