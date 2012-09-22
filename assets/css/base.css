@@ -11,16 +11,16 @@ body {
   margin-top: 0; }
 
 #container {
-  width: 855px;
+  width: 865px;
   height: 100%;
   position: relative;
   margin: auto; }
   #container .pagination {
     font-size: 14px;
-    font-width: 855px; }
+    font-width: 865px; }
 
 #menu {
-  width: 185px;
+  width: 195px;
   height: 100%;
   float: left;
   display: inline-block; }
@@ -35,7 +35,7 @@ body {
         color: #4d4d53; }
 
 #topicsmenu {
-  width: 855px;
+  width: 865px;
   position: fixed;
   top: 0;
   background-color: white;
@@ -192,7 +192,7 @@ body {
       width: 670px -5px;
       padding-right: 5px;
       text-align: justify;
-      line-height: 22px;
+      line-height: 21px;
       font-size: 14px; }
       #articles_container .article_wrapper #article_content a:link, #articles_container .article_wrapper #article_content a:active, #articles_container .article_wrapper #article_content a:visited {
         text-decoration: none;

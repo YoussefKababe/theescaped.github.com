@@ -6,7 +6,7 @@ $color2: rgb(200,200,200); /* Light Grey */
 $color3: rgb(224,64,32); /* Logo Color */
 $black: rgb(0,0,0);
 $white: rgb(255,255,255);
-$total-width: 855px;
+$total-width: 865px;
 $content-width: 670px;
 $border: 1px;
 $topics-height: 38px;
@@ -236,7 +236,7 @@ body{
                 width: $content-width -5px;
                 padding-right: 5px;
                 text-align: justify;
-                line-height: 22px;
+                line-height: 21px;
                 font:{
                     size: 14px;
                 }
