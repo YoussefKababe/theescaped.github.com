@@ -20,7 +20,7 @@ body {
     font-width: 865px; }
 
 #menu {
-  width: 185px;
+  width: 195px;
   height: 100%;
   float: left;
   display: inline-block; }
@@ -79,7 +79,7 @@ body {
       float: right; }
 
 #articles_container {
-  width: 680px;
+  width: 670px;
   display: inline-block;
   float: left;
   overflow-y: hidden;
@@ -190,7 +190,7 @@ body {
         float: left; }
     #articles_container .article_wrapper #article_content {
       height: 100%;
-      width: 680px -5px;
+      width: 670px -5px;
       padding-right: 5px;
       text-align: justify;
       line-height: 21px;
@@ -209,7 +209,7 @@ body {
   #articles_container .collapse {
     background: url("/assets/images/collapse.jpg") no-repeat center; }
   #articles_container #load_more {
-    width: 680px;
+    width: 670px;
     padding: 5px;
     text-align: center;
     color: white;
