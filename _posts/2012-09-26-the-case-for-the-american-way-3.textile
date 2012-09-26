@@ -4,7 +4,7 @@ author: Zouhair Mazouz
 category: politics
 date: 2012-9-26 19:29:9
 summary: This weekend, a Pakistani minister offered a $100,000 bounty for anyone who would dare kill the maker of "Innocence of Muslims", inflaming what has been for weeks a clash of world views. A reading into the sources of Muslim leaders' denial.
-Title: The Case for the American Way - 3
+title: The Case for the American Way - 3
 ---
 
 You can find the first two parts of this article "here":http://descaped.com/politics/
