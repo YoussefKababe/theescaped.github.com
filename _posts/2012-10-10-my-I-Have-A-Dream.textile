@@ -3,7 +3,7 @@ layout: post
 author: Hakima Taoufiq
 category: politics
 date: 2012-10-10 22:17:51
-summary: I have a dream that one day -in my lifetime- Muslims live out the true meaning of Islam, that they answer the first duty call of their religion: to read, seek knowledge and wipe out illiteracy for this was the very first word and verse revealed to the Prophet. That they read with open hearts before they utter the words in their lips. That they seek truths from the holy books, philosophy essays and even within children's questions and wonders, seek knowledge from the East to the West, for knowledge has no boundaries, and finally, that they recall that "One hour's meditation on the work of the Creator is better than seventy years of prayer" (Muhammad PBUH)
+summary: I have a dream that one day -in my lifetime- Muslims live out the true meaning of Islam, that they answer the first duty call of their religion &#58; to read, seek knowledge and wipe out illiteracy for this was the very first word and verse revealed to the Prophet. That they read with open hearts before they utter the words in their lips. That they seek truths from the holy books, philosophy essays and even within children's questions and wonders, seek knowledge from the East to the West, for knowledge has no boundaries, and finally, that they recall that "One hour's meditation on the work of the Creator is better than seventy years of prayer" (Muhammad PBUH)
 title: My I Have a Dream
 ---
 
