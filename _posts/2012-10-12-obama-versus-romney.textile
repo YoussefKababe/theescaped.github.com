@@ -3,6 +3,7 @@ layout: post
 author: Editorial
 category: politics
 summary: US elections are highly undemocratic&#58; only Americans vote, yet the effect of the suffrage is felt by the whole world. For the Middle East, US foreign policy shapes and is shaped by events. What an Obama or Romney victory could mean for Middle Easterns.
+title: Obama Versus Romney on The Middle East
 --- 
 
 !/assets/images/ObamaVersusRomney.jpg!
