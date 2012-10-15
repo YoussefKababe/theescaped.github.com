@@ -100,9 +100,12 @@ body {
       float: right;
       margin: 0;
       padding: 0;
-      float: right;
       list-style: none;
-      height: 20px; }
+      height: 20px;
+      font-size: 12px; }
+      #articles_container .article_wrapper .social_links li, #articles_container .article_wrapper .social_links a {
+        list-style: none;
+        float: right; }
       #articles_container .article_wrapper .social_links .facebook {
         background: url(/assets/images/gui.png) 0 0 no-repeat;
         height: 20px;
@@ -133,23 +136,13 @@ body {
         height: 20px;
         width: 20px;
         float: left; }
-      #articles_container .article_wrapper .social_links .stumbleupon {
+      #articles_container .article_wrapper .social_links .googleplus {
         background: url(/assets/images/gui.png) -66px 0 no-repeat;
         height: 20px;
         width: 20px;
         float: left; }
-      #articles_container .article_wrapper .social_links .stumbleupon:hover {
+      #articles_container .article_wrapper .social_links .googleplus:hover {
         background: url(/assets/images/gui.png) -66px -19px no-repeat;
-        height: 20px;
-        width: 20px;
-        float: left; }
-      #articles_container .article_wrapper .social_links .digg {
-        background: url(/assets/images/gui.png) -88px 0 no-repeat;
-        height: 20px;
-        width: 20px;
-        float: left; }
-      #articles_container .article_wrapper .social_links .digg:hover {
-        background: url(/assets/images/gui.png) -88px -19px no-repeat;
         height: 20px;
         width: 20px;
         float: left; }

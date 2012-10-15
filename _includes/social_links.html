@@ -6,14 +6,20 @@
 	  	{% assign post_or_page = page %}
 	  {% endif %}  
 
-	  <a href="https://www.facebook.com/sharer/sharer.php?u=theescaped.github.com{{post_or_page.url}}"  target="_blank">
-        <div class="facebook"></div>
+	  
+      <a href="https://plus.google.com/share?&url=descaped.com{{post_or_page.url}}" target="_blank">
+      	<li class="googleplus"></li>
       </a>
-
+      <a href="http://www.linkedin.com/shareArticle?mini=true&url=descaped.com{{post_or_page.url}}&title={{post_or_page.title}}&summary={{post_or_page.summary}}&source=The%20Escaped" target="_blank">
+      	<li class="linkedin"></li>
+      </a>
       <a href="https://twitter.com/share?url=descaped.com{{post_or_page.url}}&text={{post_or_page.title}} theescaped.github.com{{post_or_page.url}}" target="_blank">
-      	<div class="twitter">
-      	</div>
-      </a>    
+      	<li class="twitter">
+      	</li>
+      </a>
+      <a href="https://www.facebook.com/sharer/sharer.php?u=descaped.com{{post_or_page.url}}"  target="_blank">
+        <li class="facebook"></li>
+      </a>
     </ul>
 </div>
 

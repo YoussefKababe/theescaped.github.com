@@ -144,9 +144,13 @@ body{
                 float: right;
                 margin: 0;
                 padding: 0;
-                float:right;
                 list-style: none;
                 height: 20px;
+                font-size: 12px;
+                li, a{
+                    list-style: none;
+                    float: right;
+                }
                 .facebook{
                     @include social(0,0);
                 }
@@ -165,17 +169,11 @@ body{
                 .linkedin:hover{
                     @include social(-44px,-19px);
                 }
-                .stumbleupon{
+                .googleplus{
                     @include social(-66px,0);
                 }
-                .stumbleupon:hover{
+                .googleplus:hover{
                     @include social(-66px,-19px);
-                }
-                .digg{
-                    @include social (-88px,0);
-                }
-                .digg:hover{
-                    @include social (-88px,-19px);
                 }
             }
             .article_title{
