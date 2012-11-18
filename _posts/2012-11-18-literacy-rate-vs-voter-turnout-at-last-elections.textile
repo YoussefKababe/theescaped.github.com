@@ -1,0 +1,9 @@
+---
+layout: post
+author: Editorial
+category: education
+summary: Does education encourage participation in the democratic process? Drs. Milligan, Moretti & Oreopoulos (US NBER, 2003) have decyphered a "strong and robust relationship" between education and voting turnout in the U.S. Other researchers, however, found no such correlation in countries like Spain and South Korea (AUB, 2003). What do you think?
+--- 
+
+!/assets/images/literacyAndVoterTurnout.png!
+
