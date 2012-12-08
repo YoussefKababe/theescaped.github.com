@@ -311,7 +311,7 @@ for convenience, you can just edit the title above. ",
     "repo": repo,
     "path": path,
     "persisted": false,
-    "file": new Date().format("Y-m-d")+"-post-title.textile"
+    "file": year + "-" + month + "-" + day + "-post-title.textile"
   });
 }
 
