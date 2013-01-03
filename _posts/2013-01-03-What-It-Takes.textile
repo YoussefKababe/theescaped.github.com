@@ -1,12 +1,12 @@
 ---
 layout: post
 author: Zouhair Mazouz
-category: Politics
+category: politics
 date: 2013-1-1 13:46:48
 summary: Tunisians have been credited with setting up a chain reaction of events that are changing the Middle East and North Africa for good. A traveler's perspective on why it was all bound to start in Tunisia, and the sacrifices required.
 title: What It Takes
 ---
-
+:
 December 2nd, 2012. I get out of a three hour flight to Tunis and do not feel a slight change in landscape or environment. Except maybe for one thing. At the airport was a large crowd gathered as if it was waiting for somebody. In a matter of seconds, a man wrapped in a Tunisian flag walks in, triggering applause, hurrays and hugs from sympathizers. Holding what seemed to be socialist flags, they sing the Tunisian National anthem as wholeheartedly as one could. I look at the security officer next to me and sense a mixed reaction. He smiles, then shrugs his shoulders. Interestingly, his body language was quite enough to summarize what has been happening in the Middle East and North Africa since the advent of the Arab Spring.
 
 You cannot have a full grasp of the geopolitical changes shaking up the region unless you understand why it started in Tunisia in the first place. And you may have access to all the political, economic, sociological, psychological or ethnographic studies; but nothing matches a random five minute conversation with a citizen. Among Tunisian youth, there seems to be a deep sense of pride and accomplishment in getting rid of someone like Ben Ali. They feel that they truly own what they see as their revolution. Unlike "The Land of Genetically Modified Reforms" (Beghi, 2011) where I come from, Tunisians appear to have quite a clear understanding that their economic, social and governance issues were not problems on their own, but symptoms of a much larger problem. Such an ability to conceptualize and rationalize issues can obviously only be attributed to a successful Education system. Or as a cab driver in Tunis puts it:
