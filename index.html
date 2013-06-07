@@ -34,16 +34,14 @@ layout: default
   {% if paginator.previous_page %}
     <!-- If at page 2, previous button leads back to index page, instead of the nonexistant /page1 -->
     {% if paginator.previous_page == 1 %}
-      <a href="/" class="previous">Previous</a>
+      <a href="/" class="previous">< Previous</a>
     {% else %}
-      <a href="/page{{paginator.previous_page}}" class="previous">Previous</a>
+      <a href="/page{{paginator.previous_page}}" class="previous">< Previous</a>
     {% endif %}
   {% endif %}
   <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_pages}}</span>
   {% if paginator.next_page %}
-    <a href="/page{{paginator.next_page}}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
+    <a href="/page{{paginator.next_page}}" class="next">Next ></a>
   {% endif %}
 </div>
 

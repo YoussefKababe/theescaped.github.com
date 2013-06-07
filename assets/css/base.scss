@@ -43,6 +43,15 @@ body{
             size: 14px;
             width: $total-width;
         }
+        
+        a{
+          text-decoration: none;
+          color: #e04020;
+        }
+        
+        a:hover {
+          text-decoration: underline;
+        }
     }
 }
 

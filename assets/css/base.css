@@ -18,6 +18,11 @@ body {
   #container .pagination {
     font-size: 14px;
     font-width: 865px; }
+    #container .pagination a {
+      text-decoration: none;
+      color: #e04020; }
+    #container .pagination a:hover {
+      text-decoration: underline; }
 
 #menu {
   width: 195px;
